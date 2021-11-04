@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Slim';
+    src: url("../fuentes/SlimExtreme.ttf");
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.menu img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    margin: 0 0 0 15px;
+}
+#fondologo {
+    background-color: black;
+}
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    background-color: black;
+}
+.menu li a {
+    display: block;
+    padding: 38px 107px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.menu li :hover {
+    background: brown;
+    text-decoration: underline whitesmoke;
+}
+/* Banner */
+.banner {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+/* Termina Banner */
+/* Empieza Contenedor Visita */
+.contenedor_visita{
+    width: 100%;
+    height: 850px;
+    border-top: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 214, 214);
+}
+.acerca_visita{
+    max-width: 80%;
+    margin: 5% auto;
+    background-color: whitesmoke;
+    padding: 60px;
+}
+.acerca_visita h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.acerca_visita p{
+    line-height: 200%;
+    font-size: 17px;
+}
+/* Termina Contenedor Visita */
+
+/* Empieza info visita */
+.info_visita{
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: black;
+    padding: 0 60px 60px 60px;
+    color: whitesmoke;
+    display: flex;
+}
+.info_visita img{
+    padding-top: 5%;
+    width: 120px;
+    height: 120px;
+}
+.info_visita p{
+    line-height: 200%;
+    font-size: 18px;
+    padding: 90px 30px 0 40px;
+}
+/* Termina info visita */
+/*  Boton visita */
+.boton_regresa{
+    padding-top: 4%;
+    text-align: center;
+}
+.boton_regresa a{
+    background-color: whitesmoke;
+    padding: 20px 50px 20px 50px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+}
+.boton_regresa a:hover{
+    font-weight: bold;
+}

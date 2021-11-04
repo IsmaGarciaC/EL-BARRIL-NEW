@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: 'Slim';
+    src: url(../fuentes/SlimExtreme.ttf);
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.menu img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    margin:  0 0 0 15px;
+}
+#fondologo{
+    background-color: black;
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    background-color:black;
+}
+.menu li a{
+    display: block;
+    padding: 38px 107px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.menu li :hover{
+    background: brown;
+    text-decoration: underline whitesmoke;
+}
+/* Banner */
+.banner{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+/* Termina Banner */
+.contenedorcontacto{
+    width: 100%;
+    height: 1150px;
+    background-color: #ECF0F1;
+    border-top: 2px solid black;
+}
+.formulariocontacto{
+    width: 70%;
+    background-color: white;
+    margin: 100px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.tituloformulario{
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    text-align: center;
+}
+.tituloformulario p{
+    padding: 25px 0 25px 0;
+}
+.tituloformulario h2{
+    padding: 0 0 25px 0;
+    font-size: 30px;
+}
+.divisor{
+    max-width: 15%;
+    margin: 0 auto;
+    background-color: brown;
+    height: 1px;
+}
+form{
+    background-color: white;
+    margin: 0 auto;
+    width: 70%;
+    font-size: 12px;
+    padding: 20px 0 50px 200px;
+    margin: 0 auto;
+}
+input, textarea{
+    border: 0;
+    outline: none;
+}
+.field{
+    border: solid 1px black;
+    width: 520px;
+    height: 40px;
+    padding: 0 0 0 10px;
+    font-size: 17px;
+}
+.form p{
+    padding: 40px 0 5px 0;
+}
+.field:focus{
+    border-color: brown;
+}
+.mensaje{
+    border: solid 1px black;
+    width: 500px;
+    height: 200px;
+    padding: 15px 15px 15px 15px;
+    font-size: 15px;
+    resize: none;
+}
+.mensaje:focus{
+    border-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea.mensaje{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.terminos{
+    display: flex;
+}
+input.checkbox{
+    margin-top: 40px;
+    margin-right: 5px;
+}
+.terminos p{
+    font-weight: bold;
+    color: rgb(112, 112, 112);
+}
+.botonenviar{
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Termina el Formulario */
+/* Empieza Horario de Contactos */
+.contenedorhorarios{
+    width: 100%;
+    height: auto;
+    background-color: #ECF0F1;
+}
+.titulohorarios{
+    text-align: center;
+    padding: 30px 0 30px 0;
+    font-size: 25px;
+}
+.textohorarios{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    text-align: justify;
+    line-height: 200%;
+    font-size: 20px;
+}
+/* Termina Horarios */
+/* Empieza el Footer */
+footer{
+	background: black;
+	padding: 60px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid whitesmoke;
+}
+
+.content-foo{
+	text-align: center;
+}
+
+.content-foo h4{
+	color: #fff;
+	border-bottom: 3px solid whitesmoke;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.content-foo p{
+	color: #ccc;
+}
+
+.titulo-final{
+	text-align: center;
+	font-size: 24px;
+	margin: 20px 0 0 0;
+	color: whitesmoke;
+}

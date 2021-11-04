@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Slim';
+    src: url("../fuentes/SlimExtreme.ttf");
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.menu img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    margin: 0 0 0 15px;
+}
+#fondologo {
+    background-color: black;
+}
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    background-color: black;
+}
+.menu li a {
+    display: block;
+    padding: 38px 107px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.menu li :hover {
+    background: brown;
+    text-decoration: underline whitesmoke;
+}
+/* Banner */
+.banner {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+/* Termina Banner */
+
+/* Empieza Introduccion */
+.contenedor_intro {
+    width: 100%;
+    height: 800px;
+    background-color: brown;
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textos_intro {
+    max-width: 80%;
+    background-color: whitesmoke;
+    padding: 60px;
+}
+.textos_intro h1 {
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+.texto1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+.texto2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    padding-bottom: 40px;
+    text-align: justify;
+}
+.boton_intro {
+    background-color: rgb(245, 118, 118);
+    border: 2px solid black;
+    max-width: 30%;
+    padding: 15px;
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+/* Termina Introduccion */
+
+/* Empieza Familia */
+.contenedor_familia {
+    width: 100%;
+    height: 950px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img_familia {
+    max-width: 500px;
+}
+.img_familia img {
+    width: 575px;
+    float: right;
+}
+.textos_familia {
+    max-width: 33%;
+    float: left;
+    background-color: whitesmoke;
+    border-left: 2px solid black;
+}
+.textos_familia p {
+    padding: 0 55px 55px;
+    text-align: justify;
+    line-height: 155%;
+}
+.textos_familia h1 {
+    padding: 45px 0 20px;
+    text-align: center;
+}
+/* Termina Familia */
+
+/* Empieza Logros y Reconocimientos */
+.contenedor_logros {
+    width: 100%;
+    height: 750px;
+    background-image: url("../img/periodico.jpeg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.textos_logros {
+    max-width: 60%;
+    background-color: whitesmoke;
+    padding: 25px;
+}
+.textos_logros h1 {
+    text-align: center;
+    padding: 15px 0 0;
+}
+.textos_logros p {
+    text-align: justify;
+    margin: 25px 40px;
+    line-height: 200%;
+}
+/* Termina Logros */
+
+/* Empieza Contacta con Nosotros */
+.contenedor_contacta {
+    width: 100%;
+    height: 450px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textos_contacta {
+    width: 70%;
+    color: whitesmoke;
+}
+.textos_contacta h1 {
+    text-align: center;
+    padding: 0 0 20px;
+}
+.textos_contacta p {
+    text-align: center;
+    line-height: 200%;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.botoncontacta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botoncontacta a {
+    background-color: rgb(245, 118, 118);
+    border: 2px solid black;
+    max-width: 30%;
+    padding: 15px;
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+/* Termina Contacta con Nosotros */
+
+/* Empieza el Footer */
+footer{
+	background: black;
+	padding: 60px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid whitesmoke;
+}
+
+.content-foo{
+	text-align: center;
+}
+
+.content-foo h4{
+	color: #fff;
+	border-bottom: 3px solid whitesmoke;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.content-foo p{
+	color: #ccc;
+}
+
+.titulo-final{
+	text-align: center;
+	font-size: 24px;
+	margin: 20px 0 0 0;
+	color: whitesmoke;
+}

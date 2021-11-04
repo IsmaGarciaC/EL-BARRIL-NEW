@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagenenviado {
+    width: 100%;
+    text-align: center;
+}
+.imagenenviado img {
+    width: 250px;
+    height: auto;
+    margin: 80px 0 0;
+}
+.tituloenviado {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textoenviado {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 0 40px 0;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    line-height: 200%;
+}
+.boton{
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+.boton a{
+    padding: 20px 60px 20px 60px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
